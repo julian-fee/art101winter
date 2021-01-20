@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+  color: #0E7530;
+  font-size: 250%;
+  font-family: "Courier New";
+}
+h2 {
+  text-align: center;
+  color: #0E7530;
+  font-size: 150%;
+  font-family: "Courier New";
+
+}
+.center {
+  margin: auto;
+  width: 50%;
+}
+.centerimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+image {
+  padding: 100px;
+}
+p{
+  font-family: "Courier New";
+  text-align:center;
+  border-style: groove;
+  border-width: thick;
+  border-color: #C0C20E;
+  padding: 30px;
+}
+p.Dream{
+  width: 50%;
+  margin-bottom: 30px;
+}
+div.content {
+  background-color: #FF9EF8;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
