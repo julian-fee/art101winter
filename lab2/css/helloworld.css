@@ -14,18 +14,22 @@ h2 {
 .center {
   margin: auto;
   width: 50%;
+  margin-bottom: 20px;
 }
 .centerimage{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
 image {
   padding: 100px;
+  margin-bottom: 30px;
 }
 p{
   font-family: "Courier New";
   text-align:center;
+  color: #7c0272;
   border-style: groove;
   border-width: thick;
   border-color: #C0C20E;
@@ -33,7 +37,7 @@ p{
 }
 p.Dream{
   width: 50%;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 div.content {
   background-color: #FF9EF8;
