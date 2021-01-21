@@ -1,0 +1,53 @@
+div.content{
+  background-color: #D8B8FF;
+  padding: 20px;
+}
+h1{
+  text-align: center;
+  color: #4C2A75;
+  font-size: 250%;
+  font-family: "Courier New";
+}
+h3{
+  text-align: center;
+  color: #4C2A75;
+  font-size: 100%;
+  font-family: "Courier New";
+}
+.centerimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+image {
+  padding: 100px;
+  margin-top: 30px;
+}
+h2{
+  text-align: center;
+  color: #4C2A75;
+  font-size: 150%;
+  font-family: "Courier New";
+}
+sub{
+  text-align: auto;
+  font-family: "Courier New";
+  color: #4C2A75;
+}
+p{
+  font-family: "Courier New";
+  text-align:left;
+  color: #757400;
+  border-style: groove;
+  border-width: thick;
+  border-color: #C2BF17;
+  padding: 30px;
+}
+p.idea{
+  text-align: center;
+  font-family: "Courier New";
+  font-size: 120%;
+  text-align:left;
+  color: #6418C2;
+}
