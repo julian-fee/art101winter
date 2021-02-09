@@ -52,3 +52,6 @@ div.content {
   padding-bottom: 50px;
   padding-top: 50px;
 }
+#grad {
+  background-image: linear-gradient(to bottom right, #1e9600, );
+}
