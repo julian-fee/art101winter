@@ -1,0 +1,62 @@
+h1{
+  font-family: fantasy;
+  text-align: center;
+  color: #f6c276c9;
+ font-size: 250%;
+ font-family: "Courier New";
+}
+
+ h2 {
+ text-align: center;
+ color: #E84BEB;
+ font-size: 150%;
+ font-family: "Courier New";
+}
+h3 {
+ text-align: center;
+ color: #F55333;
+ font-size: 125%;
+ font-family: "Courier New";
+
+}
+
+img {
+ padding: 100px;
+ margin-bottom: 30px;
+}
+#dream{
+ border: dotted;
+   font-family: "Courier New";
+   text-align: center;
+   color: #5a1ec5;
+   font-size: 110%;
+   border-style: groove;
+   border-width: thick;
+   border-color: #e648d9d4;
+   padding: 30px;
+   background-color: #cddc39;
+}
+p.Dream{
+ width: 50%;
+ margin-bottom: 50px;
+}
+
+#grad {
+ background-image: linear-gradient(#a927b5, #bc00ff, #ff9242);
+ padding-bottom: 50px;
+ padding-top: 50px;
+ padding-right: 50px;
+ padding-left: 50px;
+}
+
+.special1 {
+ color: #26d2e8;
+}
+
+.special2 {
+ font-size: 230%;
+}
+
+.special3 {
+ background-color: #ffeb3b;
+}
