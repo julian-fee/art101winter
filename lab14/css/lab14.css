@@ -1,0 +1,51 @@
+div.content{
+  background-color: #B8DCFF;
+  padding: 20px;
+}
+h1{
+  text-align: center;
+  color: #C24C04;
+  font-size: 250%;
+  font-family: "Courier New";
+}
+h3{
+  text-align: left;
+  color: #C24C04;
+  font-size: 100%;
+  font-family: "Courier New";
+}
+.centerimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+image {
+  padding: 100px;
+  margin-top: 30px;
+}
+h2{
+  text-align: left;
+  color: #C24C04;
+  font-size: 150%;
+  font-family: "Courier New";
+}
+sub{
+  text-align: auto;
+  font-family: "Courier New";
+  color: #752C00;
+}
+p{
+  font-family: "Courier New";
+  text-align:left;
+  color: #1F7375;
+  border-style: groove;
+  border-width: thick;
+  border-color: #C24C04;
+  padding: 30px;
+}
+p.idea{
+  font-family: "Courier New";
+  text-align:left;
+  color: #1F7375;
+}

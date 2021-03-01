@@ -1,0 +1,15 @@
+.box_even{
+  width:50px;
+  height:50px;
+  background-color: orange;
+  border: solis 3px black;
+  float:left;
+}
+.box_odd{
+  width:50px;
+  height:50px;
+  background-color: magenta;
+  border: solid 3px black;
+  float:left;
+}
+#input_text{border: solid 10px grey;}
