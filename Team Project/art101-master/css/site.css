@@ -1,0 +1,21 @@
+img{
+  width:auto;
+  height: 400px;
+}
+header{
+  text-align: center;
+  font-size: x-large;
+  font-family: georgia;
+  font-weight:bold;
+}
+p{
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+
+}
+h2{
+  font-family: georgia;
+  font-weight: normal;
+  text-decoration: underline;
+}

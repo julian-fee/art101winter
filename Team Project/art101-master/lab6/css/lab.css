@@ -1,0 +1,18 @@
+h1{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+
+}
+img{
+  float:right;
+  border:5px outset black;
+  width: 500px
+  min-height:inherit;
+}
+
+body {
+  color: white;
+  font-size: 25px;
+
+}

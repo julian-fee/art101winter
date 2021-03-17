@@ -1,0 +1,31 @@
+body{
+
+  background: #E0EAFC;
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+
+}
+
+#challenge{
+  font-family: cursive;
+}
+
+#problems{
+  font-family: cursive;
+}
+
+#results{
+  font-family: cursive;
+}
+
+#output{
+  font-family: cursive;
+  font-size: 32px;
+  border: solid 1px red;
+  height: 100px;
+}
+
+p{
+  font-family: cursive;
+  font-size: 30px;
+}

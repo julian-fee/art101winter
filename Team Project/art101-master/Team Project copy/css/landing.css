@@ -1,0 +1,214 @@
+.btn {
+  border-radius: 3px;
+  /**/ Paddind determins how big the boxes are
+  padding: 15px 55px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 30px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+
+.green {
+
+  background-color: #6B3B19;
+  box-shadow: 3px 5px 5px #888888;
+  border-radius: 1000px;
+  width:200px;
+  font-size: 1em;
+  transition: all 1s ease;
+  transform: scale(1);
+}
+
+.green:hover {
+  background-color: #000;
+/*  Making button bigger on hover  */
+  transform: scale(1.5) perspective(1px)
+}
+
+h1{
+  text-align: center;
+  font-family: "courier new";
+  font-size: 36px;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 550px;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+/* Main styles */
+body {
+
+  color: #492020;
+  font: 400 16px/1.5, "courier new";
+  font-weight: bold;
+  text-align: center;
+  background-image: url('https://cdn.discordapp.com/attachments/804153450119692311/818635770843758603/Untitled_Artwork.jpg');
+}
+
+#flexing{
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 1250px;
+}
+
+/* Menu CSS below here */
+
+.container{
+  float: right;
+}
+
+.menu {
+	width: 500px;
+	height: 80px;
+	margin: 2em auto;
+	position: relative;
+	text-align: left;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.menu__label {
+	display: block;
+	background: none;
+	border: none;
+	width: 100%;
+	height: 70px;
+	padding: 0 1.25em;
+	font-size: 1.8em;
+	color: #fff;
+	position: relative;
+	outline: none;
+	text-align: left;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent; /* For some Androids */
+  text-align: center;
+}
+
+.menu__inner li a span,
+.menu__label span {
+	font-size: 0.68em;
+  font-family: "courier new";
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 1.2;
+	font-weight: 600;
+}
+
+.menu .fa {
+	vertical-align: top;
+	line-height: 1.25;
+	margin-right: 0.65em;
+	font-size: 1.15em;
+}
+
+.menu__inner {
+	list-style: none;
+	padding: 0 1.25em;
+	font-size: 1.3em;
+	margin: 0;
+	position: absolute;
+	overflow: hidden;
+	height: 0;
+	-webkit-transition: height 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+	transition: height 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.menu.menu--open .menu__inner {
+	height: 310px;
+}
+
+.menu__inner li a {
+	display: block;
+	padding: 0.53em 0;
+	line-height: 1.2;
+	opacity: 0;
+	color: white;
+  text-decoration: none;
+	pointer-events: none;
+	outline: none;
+	-webkit-transform: translate3d(0, -20px, 0);
+	transform: translate3d(0, -20px, 0);
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.menu__inner li a:hover {
+	color: rgba(244, 179, 80, 1);
+}
+
+.menu--open .menu__inner li a {
+	opacity: 1;
+	pointer-events: auto;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.menu--open .menu__inner li:nth-child(2) a {
+	-webkit-transition-delay: 0.04s;
+	transition-delay: 0.04s;
+}
+
+.menu--open .menu__inner li:nth-child(3) a {
+	-webkit-transition-delay: 0.08s;
+	transition-delay: 0.08s;
+}
+
+.menu--open .menu__inner li:nth-child(4) a {
+	-webkit-transition-delay: 0.12s;
+	transition-delay: 0.12s;
+}
+
+.menu--open .menu__inner li:nth-child(5) a {
+	-webkit-transition-delay: 0.16s;
+	transition-delay: 0.16s;
+}
+
+.menu--open .menu__inner li:nth-child(6) a {
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+
+.morph-shape,
+.morph-shape svg {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.morph-shape {
+	height: 70px;
+	-webkit-transition: height 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+	transition: height 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+	overflow: visible;
+}
+
+.morph-shape svg {
+	height: 100%;
+	overflow: visible;
+}
+
+.menu.menu--open .morph-shape {
+	height: 250px;
+}
+
+.menu.menu--open .morph-shape svg path {
+	fill: orange;
+}
+
+.morph-shape svg path {
+	fill: #00c3ff;
+  -webkit-transition: fill 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+	transition: fill 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+}

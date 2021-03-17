@@ -1,0 +1,24 @@
+body{
+
+  background:#D3D3D3;
+
+
+}
+
+#content{
+  font-family: cursive;
+}
+
+#input{
+  font-family: cursive;
+}
+
+#output{
+  font-family: cursive;
+  font-size: 32px;
+}
+
+p{
+  font-family: cursive;
+  font-size: 30px;
+}
